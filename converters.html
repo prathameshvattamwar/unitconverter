@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Conversion - Category</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Unit Conversion Portal (UCP) by Prathamesh</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <button class="back-btn" onclick="goBack()">&#x27A9;</button>
+        <h1 id="category-title">Category Converters</h1>
+        <div class="converter">
+            <div class="inputs">
+                <select id="from-unit">
+                    <!-- Options populated via JS -->
+                </select>
+                <select id="to-unit">
+                    <!-- Options populated via JS -->
+                </select>
+            </div>
+            <input type="number" id="input-value" placeholder="Enter value">
+            <button onclick="convert()">Convert</button>
+            <div id="result">Result: </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>copyright &copy; 2024 Prathamesh Vattamwar</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
